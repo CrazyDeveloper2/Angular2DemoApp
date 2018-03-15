@@ -1,0 +1,105 @@
+import { Injectable } from '@angular/core';
+
+@Injectable()
+export class GalleryService {
+  private BASE_URL:string = 'http://localhost:4600/api';
+  constructor() { }
+
+  getImages(){
+    return IMAGES.splice(0);
+  }
+
+}
+
+
+const IMAGES=[
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+  {"id":1,"imageurl":"assets/images/1.jpg"},
+
+
+
+
+]

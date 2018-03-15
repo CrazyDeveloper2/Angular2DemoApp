@@ -1,0 +1,40 @@
+<div class="row">  
+    <div class="col-md-12">  
+        <h3>Employee List</h3>  
+        <br />  
+         
+    </div>  
+</div>  
+<div class="row">  
+    <div class="col-md-12">  
+        <div class="table-responsive">  
+            <table class="table">  
+                <thead>  
+                    <tr>  
+                        <th>  
+                            
+                            S.No.  
+                        </th>  
+                        <th>  
+                            StudentName  
+                        </th>  
+                        <th>  
+                            Branch  
+                        </th>  
+                         
+                    </tr>  
+                </thead>  
+                <tbody>
+                    <!--<tr *ngFor="let studentData of StudentList ; let i = index; trackBy: StudentID">-->
+                    <tr    *ngFor="let studentData of StudentList">
+                        <td>{{studentData.StudentID}}</td>
+                        <td>{{studentData.StudentName}}</td>
+                        <td>{{studentData.Branch}}</td>
+                    </tr>
+                </tbody>
+              </table>  
+        </div>  
+  
+    </div>
+</div>  
+<!--<app-image-detail></app-image-detail>-->

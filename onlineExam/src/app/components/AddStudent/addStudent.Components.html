@@ -1,0 +1,22 @@
+<div class="col-md-6 col-md-offset-3">
+    <h2>Add Student</h2>
+     <form name="form" (ngSubmit)="addStudent()" #f="ngForm" novalidate>
+        <div class="form-group">
+            <label for="studentName">StudentID</label>
+            <input type="text" class="form-control" name="studentName" [(ngModel)]="Student.StudentID"  />
+        </div>
+        <div class="form-group">
+            <label for="StudentName">StudentName</label>
+            <input type="text" class="form-control" name="StudentName" [(ngModel)]="Student.StudentName"  />
+        </div>
+        <div class="form-group" >
+            <label for="Faculty">Branch</label>
+            <input type="text" class="form-control" name="Branch" [(ngModel)]="Student.Branch"  />
+        </div>
+       
+        <div class="form-group">
+                  <button type="submit" >Save</button>
+                  <a (click)="resetAddStudent()" class="btn btn-link">Cancel</a>
+        </div>
+    </form>
+</div>
